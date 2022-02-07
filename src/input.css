@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navsee {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #be123c;
+}
+.mainTitle {
+  top: 0.26px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: #000000;
+}
+.dateInside {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9ca3af;
+}
+.insideTitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111827;
+  margin-top: 12px;
+  top: 410px;
+}
+.imdbrating {
+  top: 2.5px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #111827;
+}
+@media screen and (max-width: 426px) {
+  .mainTitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .insideTitle {
+    font-size: 14px;
+  }
+} ;
