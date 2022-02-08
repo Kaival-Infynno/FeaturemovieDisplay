@@ -23,7 +23,6 @@ const movieSclice = createSlice({
       state.isLoading = true;
     },
     [getMovieData.fulfilled]: (state, { payload }) => {
-      console.log({ payload });
       state.letestMovieData = payload.data;
 
       state.isLoading = false;
