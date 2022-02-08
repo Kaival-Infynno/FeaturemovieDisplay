@@ -10,7 +10,7 @@ export const getMovieData = createAsyncThunk(
     );
   }
 );
-console.log({ getMovieData: getMovieData.fulfilled() });
+
 const movieSclice = createSlice({
   name: "movieData",
   initialState: {
