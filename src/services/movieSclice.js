@@ -1,6 +1,5 @@
 import axios from "axios";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-
 export const getMovieData = createAsyncThunk(
   "movieData/getMovieData",
   async () => {
@@ -10,12 +9,10 @@ export const getMovieData = createAsyncThunk(
     );
   }
 );
-
 const movieSclice = createSlice({
   name: "movieData",
   initialState: {
     letestMovieData: [],
-
     isLoading: false,
   },
   extraReducers: {
@@ -24,7 +21,6 @@ const movieSclice = createSlice({
     },
     [getMovieData.fulfilled]: (state, { payload }) => {
       state.letestMovieData = payload.data;
-
       state.isLoading = false;
     },
     [getMovieData.rejected]: (state, action) => {
@@ -34,5 +30,4 @@ const movieSclice = createSlice({
   reducers: {},
 });
 
-export const {} = movieSclice.actions;
 export default movieSclice.reducer;
