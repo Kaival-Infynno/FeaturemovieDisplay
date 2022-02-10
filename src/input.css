@@ -56,3 +56,30 @@
     font-size: 14px;
   }
 }
+.copyright {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #6b7280;
+}
+@media screen and (max-width: 426px) {
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+.privacy {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111827;
+}
+@media screen and (max-width: 426px) {
+  .privacy {
+    font-size: 14px;
+  }
+}
