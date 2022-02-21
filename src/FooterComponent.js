@@ -5,9 +5,9 @@ import VTwitter from "./images/VectorTwiter.png";
 import VYoutube from "./images/Vectoryoutube.png";
 export default function FooterComponent() {
   return (
-    <div className=" lg:mt-28 mt-10">
+    <div>
       {/* Logo */}
-      <div className="flex flex-row  justify-center md:space-x-12 space-x-6  ">
+      <div className="flex flex-row  justify-center md:space-x-12 space-x-6">
         <div className="">
           <img src={VFacebook} alt="not found" />
         </div>
@@ -22,15 +22,15 @@ export default function FooterComponent() {
         </div>
       </div>
       {/* policy */}
-      <div className="privacy flex flex-row text-center  justify-center md:space-x-12 space-x-4 md:my-9 my-4 ">
+      <div className="privacy flex flex-row text-center justify-center md:space-x-12 space-x-4 md:my-9 my-4">
         <div>Conditions of Use</div>
         <div>Privacy & Policy</div>
         <div>Press Room</div>
       </div>
       {/* copyright */}
       <div>
-        <div className="copyright text-center  ">
-          © 2021 MovieBox by Adriana Eka Prayudha{" "}
+        <div className="copyright text-center">
+          © 2021 MovieBox by Adriana Eka Prayudha
         </div>
       </div>
     </div>

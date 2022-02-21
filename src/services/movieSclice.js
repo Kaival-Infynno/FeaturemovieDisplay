@@ -23,7 +23,7 @@ export const getUCMovieData = createAsyncThunk(
 export const getVidios = createAsyncThunk("movieData/getVidios", async () => {
   let api_key = "e6bb026f9640361d78c28ce87089206d";
   return await axios.get(
-    `https://api.themoviedb.org/3/movie/646385/videos?api_key=${api_key}`
+    `https://api.themoviedb.org/3/movie/297761/videos?api_key=${api_key}`
   );
 });
 //cast
@@ -32,7 +32,7 @@ export const getCastData = createAsyncThunk(
   async () => {
     let api_key = "e6bb026f9640361d78c28ce87089206d";
     return await axios.get(
-      `https://api.themoviedb.org/3/movie/646385/credits?api_key=${api_key}`
+      `https://api.themoviedb.org/3/movie/297761/credits?api_key=${api_key}`
     );
   }
 );
